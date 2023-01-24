@@ -19,7 +19,7 @@ header {
     box-sizing: border-box;
 }
 
-#page-logo {
+#page-logo a {
     padding: 10px;
     font-family: "Oleo Script", sans-serif;
     color: rgb(8, 255, 62);
