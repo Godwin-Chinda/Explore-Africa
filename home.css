@@ -1,0 +1,48 @@
+#explore {
+    height: 800px;
+    background-image: url("images/places/barcelona.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#explore-content {
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(69  67  67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 48px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#explore-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 500px;
+    margin-top: -24px;
+    margin-bottom: 24px;
+}
+
+#explore-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#explore-content a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 8px 16px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#explore-content a:hover {
+    background-color: rgb(192, 190, 54);
+}
