@@ -1,70 +1,70 @@
 body {
-    background-color: rgb(95, 91, 91);
+  background-color: rgb(95, 91, 91);
 }
 
 #page-logo a {
-    color: rgb(183, 230, 235);
+  color: rgb(183, 230, 235);
 }
 
 header {
-    position: static;
+  position: static;
 }
 
 header a {
-    color: rgb(183, 230, 235);
+  color: rgb(183, 230, 235);
 }
 
 header nav a:hover {
-    background-color: rgba(235, 230, 230, 0.863);
+  background-color: rgba(235, 230, 230, 0.863);
 }
 
 main ul {
-    width: 1200px;
-    margin: 0 auto 48px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
+  width: 1200px;
+  margin: 0 auto 48px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
 }
 
 main li:nth-of-type(3) {
-    grid-column: 1 / span 2;
+  grid-column: 1 / span 2;
 }
 
 main li {
-    display: flex;
-    background-color: white;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    overflow: hidden;
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 main img {
-    width: 300px;
-    height: 280px;
-    object-fit: cover;
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
 }
 
 .destination-content {
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .destination-content h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .actions {
-    text-align: right;
+  text-align: right;
 }
 
 .actions a {
-    text-decoration: none;
-    padding: 8px;
-    color: rgb(40, 198, 212);
+  text-decoration: none;
+  padding: 8px;
+  color: rgb(40, 198, 212);
 }
 
 .actions a:hover {
-    color: rgb(69, 149, 156);
+  color: rgb(69, 149, 156);
 }
