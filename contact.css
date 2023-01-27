@@ -67,9 +67,36 @@ textarea:focus {
   margin-left: 0.5rem;
 }
 
+#terms-position {
+    margin: 1.5rem 0 0.5rem 0;
+}
+
 button {
   font: inherit;
   border: 1px solid rgb(3, 2, 2);
   padding: 0.4rem 1rem;
   border-radius: 8px;
+}
+
+#btn-position {
+    text-align: right;
+}
+
+.btn-empty {
+    background-color: transparent;
+}
+
+.btn-colour {
+    background-color: rgb(77, 77, 250);
+    color: white;
+}
+
+.btn-empty:hover {
+    background-color: rgb(77, 77, 250);
+    color: white;
+}
+
+.btn-colour:hover {
+    background-color: rgb(80, 111, 201);
+    border: white;
 }
