@@ -54,9 +54,22 @@ textarea:focus {
   background-color: rgb(230, 227, 240);
 }
 
+.radio-control {
+  display: flex;
+}
+
+.radio-control input {
+  width: auto;
+}
+
+.radio-control label {
+  margin: 0.2rem;
+  margin-left: 0.5rem;
+}
+
 button {
-    font: inherit;
-    border: 1px solid rgb(3, 2, 2);
-    padding: 0.4rem 1rem;
-    border-radius: 8px;
+  font: inherit;
+  border: 1px solid rgb(3, 2, 2);
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
 }
