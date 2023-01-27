@@ -1,29 +1,41 @@
 body {
-    font-family: "Pantua One", sans-serif;
-    background-color: rgb(255, 242, 242);
+  font-family: "Pantua One", sans-serif;
+  background-color: rgb(255, 242, 242);
 }
 
 #page-logo a {
-    color: black;
+  color: black;
 }
 
 header a {
-    color: black;
+  color: black;
 }
 
 header {
-    position: static;
+  position: static;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 form {
-    width: 30rem;
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-    padding: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+  width: 30rem;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+label {
+  color: rgb(37, 34, 34);
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    padding: 0.5rem;
 }
