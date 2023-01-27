@@ -22,5 +22,84 @@
         </ul>
       </nav>
     </header>
+
+    <main><h1>Contact Us</h1></main>
+
+    <main>
+      <form action="/contact.html" method="get">
+        <h2>How can we help you?</h2>
+        <section>
+          <ul>
+            <li>
+              <label for="name">Your Name</label>
+              <input type="text" name="username" id="name" required />
+            </li>
+
+            <li>
+              <label for="phonenumber">Phone Number</label>
+              <input type="tel" name="number" id="phonenumber" required />
+            </li>
+
+            <li>
+              <label for="usermail">Email</label>
+              <input type="text" name="email" id="usermail" required />
+            </li>
+
+            <li>
+              <label for="user-message">Your Message</label>
+              <input type="text" name="message" id="user-message" required />
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How should we contact you?</h2>
+          <ul>
+            <li>
+              <input
+                type="radio"
+                name="reply"
+                value="phone"
+                id="reply-call"
+                required
+              />
+              <label for="reply-call">Call Me</label>
+            </li>
+
+            <li>
+              <input
+                type="radio"
+                name="reply"
+                value="message"
+                id="text-message"
+                required
+              />
+              <label for="text-message">Text Me</label>
+            </li>
+
+            <li>
+              <input
+                type="radio"
+                name="reply"
+                value="none"
+                id="no-reply"
+                required
+              />
+              <label for="no-reply">Don't Reply</label>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+            <input type="checkbox" name="terms" id="accept-terms" required>
+            <label for="accept-terms">Accept terms</label>
+        </section>
+
+        <section>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+        </section>
+      </form>
+    </main>
   </body>
 </html>

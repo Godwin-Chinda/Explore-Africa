@@ -1,3 +1,29 @@
+body {
+    font-family: "Pantua One", sans-serif;
+    background-color: rgb(255, 242, 242);
+}
+
 #page-logo a {
     color: black;
+}
+
+header a {
+    color: black;
+}
+
+header {
+    position: static;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 30rem;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
