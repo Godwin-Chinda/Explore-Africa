@@ -16,8 +16,8 @@ header {
 }
 
 header nav a:hover {
-    background-color: rgb(94, 71, 71);
-    color: white;
+  background-color: rgb(94, 71, 71);
+  color: white;
 }
 
 h1 {
@@ -73,7 +73,7 @@ textarea:focus {
 }
 
 #terms-position {
-    margin: 1.5rem 0 0.5rem 0;
+  margin: 1.5rem 0 0.5rem 0;
 }
 
 button {
@@ -84,24 +84,24 @@ button {
 }
 
 #btn-position {
-    text-align: right;
+  text-align: right;
 }
 
 .btn-empty {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .btn-colour {
-    background-color: rgb(77, 77, 250);
-    color: white;
+  background-color: rgb(77, 77, 250);
+  color: white;
 }
 
 .btn-empty:hover {
-    background-color: rgb(77, 77, 250);
-    color: white;
+  background-color: rgb(77, 77, 250);
+  color: white;
 }
 
 .btn-colour:hover {
-    background-color: rgb(80, 111, 201);
-    border: white;
+  background-color: rgb(80, 111, 201);
+  border: white;
 }
